@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medieval RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-box">
+
+  <h1>⚔️ Medieval RPG ⚔️</h1>
+
+  <div class="player">
+    <p>Name: Hero</p>
+    <p>Level: <span id="level">1</span></p>
+    <p>Gold: <span id="gold">100</span></p>
+    <p>HP: <span id="hp">100</span></p>
+  </div>
+
+  <div class="enemy">
+    <h2>Wild Goblin</h2>
+    <p>Enemy HP: <span id="enemyHp">50</span></p>
+  </div>
+
+  <div class="buttons">
+    <button onclick="attack()">Attack</button>
+    <button onclick="heal()">Heal</button>
+    <button onclick="explore()">Explore</button>
+  </div>
+
+  <div id="log">
+    Welcome to the kingdom.
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
